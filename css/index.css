@@ -68,7 +68,7 @@ body{
 
 /*-----------------Grid elemento 3----------------------*/
 .elemento3{
-    background-image: url('/img/1x/Recurso 6-8.png');
+    background-image: url('../img/1x/Recurso 6-8.png');
     background-repeat: no-repeat;
     background-position-x: 95px;
     background-position-y: 70px;
@@ -158,11 +158,11 @@ body{
 
 /*-----------------Contenedores de imagenes y descripciones----------------------*/
 .descripcion2{
-    background-image:url('/img/tailand.jpg');
+    background-image:url('../img/tailand.jpg');
     background-repeat: no-repeat;
 }
 .descripcion3{
-    background-image:url('/img/chiang-mai.jpg');
+    background-image:url('../img/chiang-mai.jpg');
     background-repeat: no-repeat;
 }
 .descripcion4{
@@ -170,11 +170,11 @@ body{
 }
 
 .descripcion6{
-    background-image:url('/img/chiang-mai2.jpg');
+    background-image:url('../img/chiang-mai2.jpg');
     background-repeat: no-repeat;
 }
 .descripcion7{
-    background-image:url('/img/bankok.png');
+    background-image:url('../img/bankok.png');
     background-repeat: no-repeat;
 }
 .descripcion8{
