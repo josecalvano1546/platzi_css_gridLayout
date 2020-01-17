@@ -13,8 +13,8 @@ body{
 /*-----------------division del contenedor padre----------------------*/
 .contenedor{
     display: grid;
-    grid-template-columns: 25% 30% 45% ;
-    grid-template-rows: 100px 1fr;
+    grid-template-columns: 25% 30% minmax(470px,45%)  ;
+    grid-template-rows: minmax(60px,100px) 1fr;
     height: 100vh;
 
 }
@@ -141,7 +141,7 @@ body{
     overflow: scroll; /*-----hiden scrollbar--------*/
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 55% 55% 55% 55%  ; 
+    grid-template-rows: repeat(4,minmax(450px, 55%))  ; 
     grid-row-gap: 10px;
     grid-column-gap: 5px;
 }
@@ -170,7 +170,7 @@ body{
     height: 100%;
     width: 100%;
 }
-.descripcion2{
+ .descripcion2{
     background-image:url('../img/tailand.jpg');
     background-repeat: no-repeat;
 }
