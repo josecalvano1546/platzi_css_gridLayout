@@ -1,0 +1,111 @@
+/*Definimoa la animacion*/
+.fadeIn{
+    animation-duration: 4s;
+    -webkit-duration: 4s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+}
+
+/*Colocamos de donde a donde se realizara la animacion*/
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.fadeInDown{
+    animation-duration: 1s;
+    -webkit-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-name: fadeInDown;
+    -webkit-animation-name: fadeInDown; 
+}
+
+@keyframes fadeInDown{
+    from{
+        opacity: 0;
+        /*Genera el movieminto desde arriba hasta abajo*/
+        -webkit-transform: translate3d(0,-30%,0);
+        transform: translate3d(0,-30%,0);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+    }
+}
+
+.fadeInUp{
+    animation-duration: 2s;
+    -webkit-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp; 
+}
+
+@keyframes fadeInUp{
+    from{
+        opacity: 0;
+        /*Genera el movieminto desde arriba hasta abajo*/
+        -webkit-transform: translate3d(0,20%,0);
+        transform: translate3d(0,20%,0);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+    }
+}
+
+.fadeInRigth{
+    animation-duration: 2s;
+    -webkit-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-name: fadeInRigth;
+    -webkit-animation-name: fadeInRigth; 
+}
+
+@keyframes fadeInRigth{
+    from{
+        opacity: 0;
+        /*Genera el movieminto desde arriba hasta abajo*/
+        -webkit-transform: translate3d(20%,0,0);
+        transform: translate3d(20%,0,0);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+    }
+}
+
+.fadeInLeft{
+    animation-duration: 2s;
+    -webkit-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-name: fadeInLeft;
+    -webkit-animation-name: fadeInLeft; 
+}
+
+@keyframes fadeInLeft{
+    from{
+        opacity: 0;
+        /*Genera el movieminto desde arriba hasta abajo*/
+        -webkit-transform: translate3d(-20%,0,0);
+        transform: translate3d(-20%,0,0);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+    }
+}
