@@ -76,6 +76,14 @@
 } 
 
 @media only screen and (max-width:767px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 140px 3% 1fr;
+        height: 100vh;
+    
+    }
+    
     .elemento4{
         grid-column: 2 / 3;
         grid-row: 2/4;
@@ -87,12 +95,16 @@
         grid-column-gap: 5px;
         grid-template-rows: repeat(8,minmax(80%, 45%)) 
     }
-    
+ 
     
     .descripcion4{
+        text-align: left;
+    
         grid-row: 3/4;
     }
     .descripcion8{
+        text-align: left;
+        
         grid-row: 7/8;
     }
    
@@ -100,6 +112,7 @@
         grid-column: 1 / 2;
         grid-row: 2/4;
     }
+
     .rutas{
         display: flex;
         width: 70%;
@@ -109,5 +122,39 @@
         margin-left: 5%;
     }
 
+    .paisNombre p{
+        margin-bottom: 10px;
+    
+    }
+    
+    .paisNombre{
+        font-size:180%;
+        margin-top: 50px;  
+    }
+    /*-----------------Descrpcion para la derecha----------------------*/
+    .paisDesc{
+    
+        font-family: 'Raleway', sans-serif;
+        font-size:100%;
+        padding-right: 10px;
+        color: #707070;
+    }
+    .paisDescDer{
+    
+        font-family: 'Raleway', sans-serif;
+        font-size:100%;
+        color: #707070;
+        margin: 27px 0px 0px 0px;
+    }
+    .separacionDer{
+        float: left;
+        width: 200px;
+        height: 3px;
+        background-color:#BFC3CB;
+
+    }
+
+    /*-----------------fin de la descripcion para derecha----------------------*/
 }
+
 
