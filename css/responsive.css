@@ -1,7 +1,7 @@
 @media only screen and (max-width:1200px){
     .contenedor{
         display: grid;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 40% 1fr ;
         grid-template-rows: 140px 3% 1fr;
         height: 100vh;
     
@@ -34,13 +34,9 @@
     
 
     /*-----------------grid elemento 2----------------------*/
+
     .elemento2{
-        grid-row: 2 / 3;
-        grid-column: 1 / 2;
-    }
-    .elemento2 .lugares-text{
-        font-size:30px;
-        margin-top: 0px;
+        display: none;
     }
    
     /*-----------------fin elemento 2----------------------*/
@@ -56,7 +52,7 @@
         height: 100%;
         padding-top: 0%;
         justify-content: center;
-        margin-left: 15%;
+        margin-left: 5%;
     }
 
     /*-----------------fin elemento 3----------------------*/
@@ -73,6 +69,7 @@
         grid-row-gap: 10px;
         grid-column-gap: 5px;
     }
+    
 
 /*-----------------fin elemento 4----------------------*/
 
@@ -82,15 +79,35 @@
     .elemento4{
         grid-column: 2 / 3;
         grid-row: 2/4;
-    
         overflow: scroll; /*-----hiden scrollbar--------*/
         display: grid;
         grid-template-columns: 1fr;
         
         grid-row-gap: 10px;
         grid-column-gap: 5px;
+        grid-template-rows: repeat(8,minmax(80%, 45%)) 
     }
-
+    
+    
+    .descripcion4{
+        grid-row: 3/4;
+    }
+    .descripcion8{
+        grid-row: 7/8;
+    }
+   
+   .elemento3{
+        grid-column: 1 / 2;
+        grid-row: 2/4;
+    }
+    .rutas{
+        display: flex;
+        width: 70%;
+        height: 90%;
+        padding-top: 10%;
+        justify-content: center;
+        margin-left: 5%;
+    }
 
 }
 
